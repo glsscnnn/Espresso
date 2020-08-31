@@ -31,4 +31,4 @@ app.post '/coffee', (req, res) ->
 app.use '/static', express.static 'pages'
 
 app.listen 4000, () ->
-		console.log "app started at :4000 on localhost!"
+		console.log "Espresso Started on Port 4000!"
